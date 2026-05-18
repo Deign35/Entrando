@@ -10,7 +10,7 @@ var sprite_path: String setget set_sprite_path, get_sprite_path
 var sprite: Sprite
 
 onready var count_label = $Label
-onready var count = 0
+onready var count = -1
 
 func _get_marker_data(marker: Node2D, delete: bool = false) -> Dictionary:
     if delete:
